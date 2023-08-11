@@ -9,7 +9,6 @@ import java.util.List;
 
 @Repository
 public class UserDaoHibernateImpl implements UserDao {
-
     @PersistenceContext
     private EntityManager entityManager;
 

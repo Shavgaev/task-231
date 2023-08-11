@@ -15,6 +15,8 @@ public class AppInit extends AbstractAnnotationConfigDispatcherServletInitialize
         return null;
     }
 
+    public AppInit() {
+    }
 
     @Override
     protected Class<?>[] getServletConfigClasses() {
